@@ -14,7 +14,6 @@ System.out.println("Enter your age:");
 System.out.println("HAI "+name+", you are "+age+" years old");
 	}
 }
-
 /*
 OUTPUT:
 Enter your name:

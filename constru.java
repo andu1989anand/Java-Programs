@@ -28,9 +28,10 @@ class constru
 	}
 }
 
-
+/*
 OUTPUT:
 a=100
 b=89.5
 c=atmece cse
 d=34.98877666665555
+*/

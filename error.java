@@ -27,3 +27,11 @@ public class error {
 	}
 
 }
+
+/*OUTPUT
+atmece1
+DIVIDE BY ZERO ERROR  java.lang.ArithmeticException: / by zero
+ERROR
+atmece2
+atmece3
+atmece4*/

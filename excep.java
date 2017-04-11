@@ -1,0 +1,24 @@
+class excep{  
+  void m(){  
+    int data=50/0;  
+  }  
+  void n(){  
+    m();  
+  }  
+  void p(){  
+   try{  
+    n();  
+   }catch(Exception e){System.out.println("exception handled");}  
+  }  
+  public static void main(String args[]){  
+  excep obj=new excep();  
+   obj.p();  
+   System.out.println("normal flow...");  
+  }  
+} 
+/*
+OUTPUT
+
+exception handled
+normal flow...
+*/

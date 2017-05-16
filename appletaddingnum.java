@@ -40,7 +40,7 @@ if(e.getSource()==b1)
 {
 int a=Integer.parseInt(t1.getText());
 int b=Integer.parseInt(t2.getText());
-float c=a+b;
+int c=a+b;
 t3.setText(String.valueOf(c));
 }
 }
